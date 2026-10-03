@@ -1,0 +1,38 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets / raw data
+LibriSpeech/
+MAD_dataset/
+dataset/
+dataset_balanced/
+noise/
+splits/
+audio_check/
+
+# Training checkpoints
+checkpoints/
+defence_noise_classifier.pth
+
+# Generated audio
+*.wav
+
+# Generated evaluation folders
+evaluation_results/
+wiener_diagnostic/
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Keep Git metadata out of project files
+.vscode/
+.idea/
+
+# Demo audio is intentionally included
+!demo/
+!demo/audio_samples/
+!demo/audio_samples/helicopter/
+!demo/audio_samples/helicopter/*.wav
